@@ -1,7 +1,7 @@
 version: "3"
 services:
   test:
-    image: beautyyu/python-selenium
+    image: beautyyu/python-selenium:latest
     command: sh -c "python3 main.py"
     working_dir: /app
     volumes:

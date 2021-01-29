@@ -1,9 +1,9 @@
 name: docker-build-3
 on:
-  #push:
-  #  branches: master
+  push:
+    branches: master
   schedule:
-    - cron: '54 * * * *'
+    - cron: '59 9 * * *'
 
 jobs:
   main:

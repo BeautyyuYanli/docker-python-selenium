@@ -1,9 +1,9 @@
-name: docker-build
+name: docker-build-1
 on:
   push:
     branches: master
   schedule:
-    - cron: '42 * * * *'
+    - cron: '47 * * * *'
 
 jobs:
   main:

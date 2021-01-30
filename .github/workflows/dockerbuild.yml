@@ -3,7 +3,7 @@ on:
 #  push:
 #    branches: master
   schedule:
-    - cron: '33 1 * * *'
+    - cron: '35 1 * * *'
 
 jobs:
   main:

@@ -8,4 +8,4 @@ RUN apk add --no-cache python3 py3-pip firefox-esr dbus-x11 ttf-freefont xvfb cu
 		&& tar -zxvf *.tar.gz\
 		&& mv ./geckodriver /usr/local/bin/\
 		&& chmod a+x /usr/local/bin/geckodriver\
-		&& pip3 install selenium requests xvfbwrapper
+		&& pip3 install selenium requests xvfbwrapper selenium-requests
